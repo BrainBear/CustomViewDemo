@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import me.brainbear.view.WaveProgressView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -23,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, VoiceWaveActivity.class));
+            }
+        });
+
+        findViewById(R.id.btn_wave).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, WaveProgressActivity.class));
             }
         });
     }

@@ -1,1 +1,1 @@
-include ':app', ':tapeview', ':voicewaveview'
+include ':app', ':tapeview', ':voicewaveview', ':waveprogressview'

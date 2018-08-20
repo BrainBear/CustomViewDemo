@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TapeViewActivity" />
-        <activity android:name=".VoiceWaveActivity"></activity>
+        <activity android:name=".VoiceWaveActivity" />
+        <activity android:name=".WaveProgressActivity"></activity>
     </application>
 
 </manifest>

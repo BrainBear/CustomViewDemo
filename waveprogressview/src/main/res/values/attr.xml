@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveProgressView">
+        <attr name="wave_max" format="integer" />
+        <attr name="wave_progress" format="integer" />
+        <attr name="wave_amplitude" format="dimension" />
+        <attr name="wave_period" format="dimension" />
+        <attr name="front_wave_duration" format="integer" />
+        <attr name="back_wave_duration" format="integer" />
+        <attr name="wave_animation" format="boolean" />
+        <attr name="wave_offset" format="dimension" />
+        <attr name="front_wave_color" format="color" />
+        <attr name="back_wave_color" format="color" />
+        <attr name="background_color" format="color" />
+        <attr name="stroke_width" format="dimension" />
+        <attr name="stroke_color" format="color" />
+    </declare-styleable>
+</resources>
